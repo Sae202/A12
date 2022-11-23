@@ -1,0 +1,73 @@
+/* the styles for the elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: ivory;
+}
+body img {
+    float: top;
+    width: 400px;
+    height: 525px;
+    margin: 50px 20px;
+    left: 468px;
+    top: 221px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+body {
+    font-family: "Arial Black", sans-serif;
+    font-size: 100%;
+}
+body h1 {
+    color: lightpink;
+    margin: 20px 0;
+    font-weight: bolder;
+}
+
+/* cookie style*/
+.container{
+    width: 1600px;
+    margin: auto;
+}
+.subcontainer{
+    width: 85%;
+    margin: auto;
+}
+#cookies{
+    width:1460px;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0,0,0,50%);
+    z-index:1;
+}
+.cookies{
+    min-height: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+#cookie-btn{
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size:1rem;
+    cursor:pointer;
+    background-color: lavender;
+    color: black;
+    border: 3px solid lavender;
+
+}
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width:1024px){
+    .cookies{
+        padding: 10px;
+    }
+}
+
